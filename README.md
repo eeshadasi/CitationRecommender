@@ -13,7 +13,7 @@ This tool aims to improve the quality and credibility of content by providing ac
 - Saves time and effort in the research process
 
 ## Main Functionality
-The Credible Source Finder tool uses Flask, pandas, and TextBlob to suggest credible sources for content, aiming to save time and improve content quality. It does this by analyzing user queries and articles, fetching search results using the Bing API, and performing sentiment analysis to rank sources based on relevance and credibility.
+The Citation Recommender uses Flask, pandas, and TextBlob to suggest credible sources for content, aiming to save time and improve content quality. It does this by analyzing user queries and articles, fetching search results using the Bing API, and performing sentiment analysis to rank sources based on relevance and credibility.
 
 **Key Steps:**
 - **User Input:** Takes user input from a form.

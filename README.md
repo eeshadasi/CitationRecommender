@@ -53,7 +53,9 @@ The Credible Source Finder tool uses Flask, pandas, and TextBlob to suggest cred
 
 ## Screenshots
 ![Inital page](https://drive.google.com/uc?export=view&id=1zzhM_f9EbkbS37IW4fIRZrLjxv-NmSdM)
+
 ![Try Searching citation](https://drive.google.com/uc?export=view&id=1y5HQbuMx80gG-pdTFFG7Z1wksPdcwF8l)
+
 ![Getting Recommendations](https://drive.google.com/uc?export=view&id=1MzUr4zir9C5W7sbj2oebe6nXrRnAnHU_)
 
 ## Future Enhancements

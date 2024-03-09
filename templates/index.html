@@ -18,7 +18,7 @@
     <p class="text-center text-md mt-4 mb-2 font-bold underline">Find your best citations</p>
     <div class="max-w-md mx-auto my-3 p-4 bg-gray-100 rounded-lg shadow-md rounded-lg">
         <form id="myForm" action="/submit" method="POST">
-            <input  required type="text" id="inputText" name="inputText" class="my-2 py-2 text-sm font-medium block w-full text-black rounded-md border-gray-300 shadow-sm  focus:ring focus:ring-gradient-to-r focus:ring-blue-500 focus:ring-green-300 focus:ring-opacity-50" placeholder="Enter your article" style="padding-left: 8px; padding-top: 4px;">
+            <input  value="{{ request.form['inputText'] if request.form.get('inputText') }}" required type="text" id="inputText" name="inputText" class="my-2 py-2 text-sm font-medium block w-full text-black rounded-md border-gray-300 shadow-sm  focus:ring focus:ring-gradient-to-r focus:ring-blue-500 focus:ring-green-300 focus:ring-opacity-50" placeholder="Enter your article" style="padding-left: 8px; padding-top: 4px;">
             <button type="submit" class="my-2 w-full text-white bg-gradient-to-r from-blue-500 to-green-300 hover:bg-gradient-to-r hover:from-green-300 hover:to-blue-500 focus:ring-4 focus:outline-none focus:ring-1 focus:ring-purple-100  font-bold rounded-md text-sm px-4 py-2">Search</button>
         </form>
     </div>
@@ -56,7 +56,5 @@
         {% endif %}
     </div>
 </div>
-<script>
-</script>
 </body>
 </html>
